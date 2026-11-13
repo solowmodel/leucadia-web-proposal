@@ -61,7 +61,7 @@ export default function About() {
 
         <h2>2. Building with Next.js</h2>
         <p>
-     I like working with Next.js because it is fast, flexible, and built with SEO in mind. Page transitions feel instant, and it gives me full control over the layout—whether I am building a locked, minimal landing page or a scrollable article. It also handles performance and search indexing out of the box, so I can focus on the design and writing instead of complex setup.
+          I like working with Next.js because it is fast, flexible, and built with SEO in mind. Page transitions feel instant, and it gives me full control over the layout—whether I am building a locked, minimal landing page or a scrollable article. It also handles performance and search indexing out of the box, so I can focus on the design and writing instead of complex setup.
         </p>
         <figure style={{ margin: '32px 0' }}>
           <img
@@ -86,9 +86,9 @@ export default function About() {
           </figcaption>
         </figure>
 
-                <h2>3. Design tools</h2>
+        <h2>3. Design Tools</h2>
         <p>
-     I used Inkscape to turn the image from your website into a vector. Then used illustrator to edit the path and remove the bottom text from the vector.
+          I used Inkscape to turn the image from your website into a vector. Then used Illustrator to edit the path and remove the bottom text from the vector.
         </p>
         <figure style={{ margin: '32px 0' }}>
           <img
@@ -112,10 +112,11 @@ export default function About() {
             Working with vector in Adobe Illustrator.
           </figcaption>
         </figure>
- <h2>3. Hosting </h2>
+
+        <h2>4. Hosting</h2>
         <p>
-     As you can see there is a netlify tag in the bottom right of the site. That is due to the fact that I use a service called Netlify to host sites and applications I am developing.  It is a great tool to use during the development and even for full launch. You can use custom domains and scale up storage as the site or app grows.
-     First I uploaded the site files to a GitHub repository. After that Netlify allows me to connect the repository to the project. This is nice because it will automatically detect any updates to the github and redeploy the site or app.
+          I use a service called Netlify to host sites and applications I am developing. It is a great tool to use during the development and even for full launch. You can use custom domains and scale up storage as the site or app grows.
+          First I uploaded the site files to a GitHub repository. After that Netlify allows me to connect the repository to the project. This is nice because it will automatically detect any updates to the GitHub and redeploy the site or app.
         </p>
         <figure style={{ margin: '32px 0' }}>
           <img
@@ -136,11 +137,10 @@ export default function About() {
               textAlign: 'center',
             }}
           >
-            New github repository.
+            New GitHub repository.
           </figcaption>
-          
         </figure>
-                <figure style={{ margin: '32px 0' }}>
+        <figure style={{ margin: '32px 0' }}>
           <img
             src="/07.png"
             alt="Early sketch of the layout"
@@ -161,8 +161,34 @@ export default function About() {
           >
             Netlify building the site!
           </figcaption>
-          
         </figure>
+
+        {/* Centered & Stylized Proposal Button */}
+        <div
+          style={{
+            marginTop: '48px',
+            paddingTop: '32px',
+            borderTop: '1px solid #eaeaea',
+            textAlign: 'center',
+          }}
+        >
+          <Link
+            href="/proposal"
+            style={{
+              display: 'inline-block',
+              padding: '12px 28px',
+              backgroundColor: '#111',
+              color: '#fff',
+              textDecoration: 'none',
+              borderRadius: '9999px',
+              fontWeight: '500',
+              fontSize: '1rem',
+              letterSpacing: '0.01em',
+            }}
+          >
+            View Proposal →
+          </Link>
+        </div>
       </section>
     </article>
   );
