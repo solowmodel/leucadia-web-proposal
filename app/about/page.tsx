@@ -112,7 +112,57 @@ export default function About() {
             Working with vector in Adobe Illustrator.
           </figcaption>
         </figure>
-
+ <h2>3. Hosting </h2>
+        <p>
+     As you can see there is a netlify tag in the bottom right of the site. That is due to the fact that I use a service called Netlify to host sites and applications I am developing.  It is a great tool to use during the development and even for full launch. You can use custom domains and scale up storage as the site or app grows.
+     First I uploaded the site files to a GitHub repository. After that Netlify allows me to connect the repository to the project. This is nice because it will automatically detect any updates to the github and redeploy the site or app.
+        </p>
+        <figure style={{ margin: '32px 0' }}>
+          <img
+            src="/06.png"
+            alt="Early sketch of the layout"
+            style={{
+              width: '100%',
+              height: 'auto',
+              borderRadius: '8px',
+              display: 'block',
+            }}
+          />
+          <figcaption
+            style={{
+              fontSize: '0.875rem',
+              color: '#666',
+              marginTop: '8px',
+              textAlign: 'center',
+            }}
+          >
+            New github repository.
+          </figcaption>
+          
+        </figure>
+                <figure style={{ margin: '32px 0' }}>
+          <img
+            src="/07.png"
+            alt="Early sketch of the layout"
+            style={{
+              width: '100%',
+              height: 'auto',
+              borderRadius: '8px',
+              display: 'block',
+            }}
+          />
+          <figcaption
+            style={{
+              fontSize: '0.875rem',
+              color: '#666',
+              marginTop: '8px',
+              textAlign: 'center',
+            }}
+          >
+            Netlify building the site!
+          </figcaption>
+          
+        </figure>
       </section>
     </article>
   );
