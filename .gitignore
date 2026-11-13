@@ -1,0 +1,8 @@
+# Dependencies & Build Output
+node_modules/
+.next/
+out/
+
+# Environment & Local Files
+.env*.local
+.DS_Store
